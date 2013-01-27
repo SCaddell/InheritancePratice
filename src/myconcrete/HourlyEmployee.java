@@ -46,7 +46,8 @@ public class HourlyEmployee extends Employee {
     }
     
     public String toString() {
-        String str = "Hourly Pay Rate: " + hourlyPayRate + "\n";
+        String str = super.toString()
+                + "Hourly Pay Rate: " + hourlyPayRate + "\n";
         return str;
     }
 }

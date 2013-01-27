@@ -50,7 +50,8 @@ public class SalariedEmployee extends Employee {
     }
     
     public String toString() {
-        String str = "Yearly Salary: " + yearlySalary + "\n";
+        String str = super.toString()
+                + "Yearly Salary: " + yearlySalary + "\n";
         return str;
     }
 }
