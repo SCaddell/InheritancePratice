@@ -92,17 +92,18 @@ public class HourlyEmployee implements Employee {
         this.termDate = termDate;
     }
 
-    public double getYearlySalary() {
+    public double getHourlyPayRate() {
         return hourlyPayRate;
     }
 
-    public void setYearlySalary(double hourlyPayRate) {
+    public void setHourlyPayRate(double hourlyPayRate) {
         this.hourlyPayRate = hourlyPayRate;
     }
     
     @Override
     public String toString() {
-        String str = "EmpNum: " + employeeNum
+        String str = "myinterface " 
+                + "   EmpNum: " + employeeNum
                 + "   EmpName: " + employeeName
                 + "   Hire Date: " + hireDate 
                 + "   Termination Date: " + termDate 
