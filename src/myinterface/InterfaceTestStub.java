@@ -10,7 +10,7 @@ package myinterface;
  */
 public class InterfaceTestStub {
     
-    public static void main (String[] args) {
+    //public static void main (String[] args) {
         
         // Test the interface Employee
         // myinterface.Employee employee1 = new myinterface.Employee("12345", "John Doe", 20130126);
