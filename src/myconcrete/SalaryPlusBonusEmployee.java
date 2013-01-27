@@ -45,4 +45,9 @@ public class SalaryPlusBonusEmployee extends SalariedEmployee {
         this.empBonus = empBonus;
     }
 
+    public String toString() {
+        String str = "Employee Bonus: " + empBonus + "\n";
+        return str;
+    }
+    
 }

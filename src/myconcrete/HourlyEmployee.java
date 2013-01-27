@@ -45,4 +45,8 @@ public class HourlyEmployee extends Employee {
         this.hourlyPayRate = hourlyPayRate;
     }
     
+    public String toString() {
+        String str = "Hourly Pay Rate: " + hourlyPayRate + "\n";
+        return str;
+    }
 }

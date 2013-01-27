@@ -49,4 +49,8 @@ public class SalariedEmployee extends Employee {
         this.yearlySalary = yearlySalary;
     }
     
+    public String toString() {
+        String str = "Yearly Salary: " + yearlySalary + "\n";
+        return str;
+    }
 }

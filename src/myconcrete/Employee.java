@@ -78,4 +78,11 @@ public class Employee {
         this.termDate = termDate;
     }
     
+    public String toString() {
+        String str = "EmpNum: " + employeeNum
+                + "   EmpName: " + employeeName
+                + "   Hire Date: " + hireDate 
+                + "   Termination Date: " + termDate + "\n";
+        return str;
+    }
 }
