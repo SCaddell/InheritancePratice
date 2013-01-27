@@ -1,4 +1,4 @@
-package myconcrete;
+package myinterface;
 
 /**
  *
@@ -46,6 +46,7 @@ public class SalaryPlusBonusEmployee extends SalariedEmployee {
         this.empBonus = empBonus;
     }
 
+    @Override
     public String toString() {
         String str = super.toString()
                 + "Employee Bonus: " + empBonus + "\n";
