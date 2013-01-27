@@ -12,6 +12,16 @@ public class Employee {
     private int     termDate;       // Employee Termination date (ccyymmdd)
     
     /**
+     * default constructor
+     */
+    public Employee() {
+        this.employeeName = "";
+        this.employeeNum = "";
+        this.hireDate = 0;
+        this.termDate = 0;
+    }
+    
+    /**
      * Constructor with Employee name and number
      * @param employeeNum
      * @param employeeName 
