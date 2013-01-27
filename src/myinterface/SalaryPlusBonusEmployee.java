@@ -48,7 +48,8 @@ public class SalaryPlusBonusEmployee extends SalariedEmployee {
 
     @Override
     public String toString() {
-        String str = super.toString()
+        String str = "myinterface"
+                + super.toString()
                 + "Employee Bonus: " + empBonus + "\n";
         return str;
     }

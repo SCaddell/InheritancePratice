@@ -98,7 +98,8 @@ public class SalariedEmployee implements Employee {
     
     @Override
     public String toString() {
-        String str = "EmpNum: " + employeeNum
+        String str = "myinterface"
+                + "   EmpNum: " + employeeNum
                 + "   EmpName: " + employeeName
                 + "   Hire Date: " + hireDate 
                 + "   Termination Date: " + termDate 

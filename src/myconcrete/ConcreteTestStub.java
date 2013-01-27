@@ -4,7 +4,7 @@ package myconcrete;
  *
  * @author Stuart - HP AMD 10
  */
-public class TestStub {
+public class ConcreteTestStub {
     
     public static void main (String[] args) {
         
