@@ -6,7 +6,7 @@ package myconcrete;
  */
 public class ConcreteTestStub {
     
-    //public static void main (String[] args) {
+    public static void main (String[] args) {
         
         // Test the concrete Employee
         Employee employee1 = new Employee("12345", "John Doe", 20130126);
